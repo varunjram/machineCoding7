@@ -8,7 +8,7 @@ const Continent = () => {
   const { continents, SelectedContinent, dispatch } = useAppContext();
   console.log("SelectedContinent: ", SelectedContinent);
 
-  const countries = SelectedContinent.countries;
+  const countries = SelectedContinent?.countries;
 
   useEffect(() => {
     dispatch({

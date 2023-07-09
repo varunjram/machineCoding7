@@ -75,8 +75,7 @@ const appInitialState = {
             {
               id: 1,
               name: "Great Wall of China",
-              description:
-                "The Great Wall of China is a historic fortification that stretches across the northern border of China, built to protect the Chinese Empire from invasions.",
+              description:                "The Great Wall of China is a historic fortification that stretches across the northern border of China, built to protect the Chinese Empire from invasions.",
               image: "https://i.postimg.cc/90w6M40r/great-Wall-Of-China.jpg",
               ratings: 4.7,
               reviews: 500,
