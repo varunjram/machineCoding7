@@ -10,6 +10,8 @@ const DisplayCard = ({ data, clickHandler, route }) => {
     path = `/continent/${name}`;
   } else if (route === "country") {
     path = `/country/${name}`;
+  } else if (route === "destination") {
+    path = `/destination/${name}`;
   }
   return (
     <div

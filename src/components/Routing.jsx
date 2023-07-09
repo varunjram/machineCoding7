@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Continents from "../pages/Continents";
 import Continent from "../pages/Continent";
 import Country from "../pages/Country";
+import Destination from "../pages/Desitination";
 
 export default function Routing() {
   return (
@@ -22,7 +23,7 @@ export default function Routing() {
         />
         <Route
           path="/destination/:destinationName"
-          element={<Country />}
+          element={<Destination />}
         />
       </Routes>
     </>
