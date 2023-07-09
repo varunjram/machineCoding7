@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
+import Continents from "../pages/Continents";
+import Continent from "../pages/Continent";
 
 export default function Routing() {
   return (
@@ -8,7 +9,15 @@ export default function Routing() {
       <Routes>
         <Route
           path="/"
-          element={<Home />}
+          element={<Continents />}
+        />
+        <Route
+          path="/continent/:continentName"
+          element={<Continent />}
+        />
+        <Route
+          path="/country/:countryName"
+          element={<Continent />}
         />
       </Routes>
     </>

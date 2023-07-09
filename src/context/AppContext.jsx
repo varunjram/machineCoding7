@@ -3,6 +3,7 @@ import AppReducer, { appInitialState } from "../reducers/AppReducer";
 const AppContext = createContext();
 const AppContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(AppReducer, appInitialState);
+  console.log("appstate: ", state);
 
   const context = { ...state, dispatch };
 
